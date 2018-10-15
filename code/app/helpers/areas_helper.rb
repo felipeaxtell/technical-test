@@ -1,6 +1,5 @@
 module AreasHelper
   require 'roo'
-  require 'axlsx'
 
   # Abre y lee un archivo xlsx para
   # generar un arreglo con los datos relacionados por jerarquia.
