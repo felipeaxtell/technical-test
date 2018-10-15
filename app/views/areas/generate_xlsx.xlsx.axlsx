@@ -1,0 +1,8 @@
+workbook = xlsx_package.workbook
+workbook.add_worksheet(name: "Areas") do |sheet|
+  sheet.add_row ['Area padre', 'Area hija']
+
+  @associated_areas.each do |areas|
+    sheet.add_row [areas[:parent], areas[:child]]
+  end
+end

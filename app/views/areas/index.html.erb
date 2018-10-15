@@ -1,0 +1,11 @@
+<section id="main">
+  <h1>Prueba Técnica Rankmi</h1>
+  <%= form_for 'areas', url: generate_xlsx_url, remote: false do |f| %>
+    <p class="info">Adjunta el archivo para iniciar ejercicio.</p>
+    <div class="form-group">
+      <label for="areas_file">Archivo</label>
+      <%= f.file_field :file %>
+    </div>
+    <%= f.button 'Enviar', :class => 'btn' %>
+  <% end %>
+</section>

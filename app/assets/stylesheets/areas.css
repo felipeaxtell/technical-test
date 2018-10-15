@@ -1,0 +1,36 @@
+#main {
+  width: 600px;
+  padding: 20px;
+  margin: 40px auto;
+  box-shadow: 0 5px 20px rgba(0,0,0,.15);
+}
+
+#main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.info {
+  font-size: 12px;
+}
+
+.form-group {
+  display: block;
+  margin: 20px 0;
+}
+
+.form-group label {
+  padding: 0 20px 0 0;
+}
+
+.btn{
+  padding: 10px 30px;
+  color: #fff;
+  background-color: #50a750;
+  border: 1px solid #50a750;
+  border-radius: 100px;
+}
+
+.btn:hover {
+  opacity: .8;
+}
